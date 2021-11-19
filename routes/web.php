@@ -26,6 +26,7 @@ Route::view('/', 'welcome')->name('bienvenida');
 Route::view('/carrito', 'carrito')->name('carrito');
 Route::view('/vendedor', 'vendedor')->name('vendedor');
 Route::view('/cliente', 'cliente')->name('cliente');
-
+Route::view('/pedidos', 'pedidos')->name('pedidos');
+Route::view('/perfil', 'perfil')->name('perfil');
 
 Auth::routes();
