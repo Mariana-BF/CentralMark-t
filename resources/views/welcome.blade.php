@@ -1,32 +1,9 @@
 @extends('layouts.app')
 
-
-
-
 @section('content')
-<ul class="nav justify-content-center">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Frutas</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Verduras</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Carnes</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Lacteos</a>
-  </li>
- 
-</ul>
-<nav class="navbar navbar-light bg-light">
-  <div class="container-fluid">
-    <form class="d-flex">
-      <input class="form-control me-2" type="search" placeholder="Busca un producto" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Buscar</button>
-    </form>
-  </div>
-</nav>
+   
+<div class="conteiner" ></div>
+
 <!-- Header-->
 <header class="py-5" style="background-color: rgb(65, 124, 65)">
   <div class="container px-4 px-lg-5 my-5">
@@ -46,7 +23,7 @@
           <div class="col mb-5">
               <div class="card h-100">
                   <!-- Product image-->
-                  <img class="card-img-top"  src="{{ asset('images\img1.jpeg') }}"  alt="" />
+                  <img class="card-img-top"  src="storage//images/img1.jpeg"  alt="" />
                   <!-- Product details-->
                   <div class="card-body p-4">
                       <div class="text-center">
@@ -69,7 +46,7 @@
                   <!-- Sale badge-->
                   <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Oferta</div>
                   <!-- Product image-->
-                  <img class="card-img-top" src="{{ asset('images\jitomate.jpg') }}" height="185" width="840" alt="" />
+                  <img class="card-img-top" src="storage//images/jitomate.jpg" height="185" width="840" alt="" />
                   <!-- Product details-->
                   <div class="card-body p-4">
                       <div class="text-center">
@@ -92,7 +69,7 @@
                   <!-- Sale badge-->
                   <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Oferta</div>
                   <!-- Product image-->
-                  <img class="card-img-top" src="{{ asset('images\rabanos.jpeg') }}" height="185" width="840" alt="..." />
+                  <img class="card-img-top" src="storage//images/rabanos.jpeg" height="185" width="840" alt="..." />
                   <!-- Product details-->
                   <div class="card-body p-4">
                       <div class="text-center">
@@ -112,7 +89,7 @@
           <div class="col mb-5">
               <div class="card h-100">
                   <!-- Product image-->
-                  <img class="card-img-top" src="{{ asset('images\papaya.jpg') }}" height="185" width="840" alt="..." />
+                  <img class="card-img-top" src="storage//images/papaya.jpg" height="185" width="840" alt="..." />
                   <!-- Product details-->
                   <div class="card-body p-4">
                       <div class="text-center">
@@ -141,7 +118,7 @@
                   <!-- Sale badge-->
                   <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Oferta</div>
                   <!-- Product image-->
-                  <img class="card-img-top" src="{{ asset('images\guayaba2.jpg') }}" height="185" width="840" alt="..." />
+                  <img class="card-img-top" src="storage//images/guayaba2.jpg" height="185" width="840" alt="..." />
                   <!-- Product details-->
                   <div class="card-body p-4">
                       <div class="text-center">
@@ -161,7 +138,7 @@
           <div class="col mb-5">
               <div class="card h-100">
                   <!-- Product image-->
-                  <img class="card-img-top" src="{{ asset('images\brocoli.jpg') }}" height="185" width="840" alt="..." />
+                  <img class="card-img-top" src="storage//images/brocoli.jpg" height="185" width="840" alt="..." />
                   <!-- Product details-->
                   <div class="card-body p-4">
                       <div class="text-center">
@@ -176,30 +153,10 @@
                     <div class="text-center"><a  class="btn btn-outline-success"data-bs-toggle="modal" data-bs-target="#exampleModal">Ver más</a></div>
                 </div>
               </div>
-          </div>
-  
-    
+          </div>    
       </div>
   </div>
 
 </section>
-
-
-<!-- Footer-->
-<footer class="py-5 bg-white shadow-sm" >
-  <div class="container"><p class="m-0 text-center text-black">Copyright &copy; Noviembre 2021</p></div>
-</footer>
-<!-- Bootstrap core JS-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Core theme JS-->
-<script src="js/scripts.js"></script>
-
-
-
-
-
-
-
-
-
+    
 @endsection
